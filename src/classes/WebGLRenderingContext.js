@@ -367,4 +367,8 @@ export default class WebGLRenderingContext {
   getContextAttributes() {
     return this._contextAttributes;
   }
+
+  get canvas() {
+    return this._canvas;
+  }
 }
